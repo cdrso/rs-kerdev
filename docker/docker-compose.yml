@@ -1,0 +1,12 @@
+services:
+  rs-kerdev:
+    image: rs-kerdev-arch
+    stdin_open: true
+    tty: true
+    volumes:
+      - ~/Dev/rs-kerdev-arch/src:/src
+    devices:
+      - /dev/kvm:/dev/kvm
+    build:
+      context: .
+      dockerfile: Dockerfile
