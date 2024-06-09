@@ -1,10 +1,10 @@
 services:
   rs-kerdev:
-    image: rs-kerdev-arch
+    image: rs-kerdev
     stdin_open: true
     tty: true
     volumes:
-      - ~/Dev/rs-kerdev-arch/src:/src
+      - ~/Dev/rs-kerdev/src:/src
     devices:
       - /dev/kvm:/dev/kvm
     build:
