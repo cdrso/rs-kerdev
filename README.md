@@ -14,7 +14,7 @@ Next, proceed to configure and compile both the kernel and BusyBox. It's crucial
 
 ## Generating Initramfs
 
-Following successful compilation of BusyBox and the kernel, the next step involves generating the initramfs. This task can be accomplished using the script found at `/src/vm/set-initramfs.sh`.
+Following successful compilation of BusyBox and the kernel, the next step involves generating the initramfs. This task can be accomplished by first copying the `/src/vm/init.sh` file into your kernel folder and then using the script found at `/src/vm/set-initramfs.sh`.
 
 ## Kernel Testing with QEMU
 

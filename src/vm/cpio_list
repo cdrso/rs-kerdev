@@ -1,5 +1,8 @@
 dir /dev 0755 0 0
 nod /dev/console 0600 0 0 c 5 1 
+nod /dev/tty4 0600 0 0 c 4 4 
+nod /dev/tty3 0600 0 0 c 4 3 
+nod /dev/tty2 0600 0 0 c 4 2 
 dir /root 0700 0 0
 
 nod /dev/null 0666 0 0 c 1 3
